@@ -9,15 +9,6 @@
             margin: 60px;
         }
     </style>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XZYGPRJDHT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-XZYGPRJDHT');
-</script>
 
 </head>
 <body>
@@ -27,6 +18,18 @@
         <!-- Contenido dentro de .leaf -->
         <img id="logo" src="1.png" alt="Logo de Tu Negocio">
         <h1 id="nombre-negocio">AGENCIA DE PUBLICIDAD DIGITAL</h1>
+        <!-- BASE DE DATOS CONTADOR USERS-->
+        <p>Esta página ha sido visitada <span id="contador">cargando...</span> veces.</p>
+        <script>
+            // Utiliza JavaScript para cargar el contador desde el servidor
+            fetch('contador.php')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('contador').textContent = data;
+                })
+                .catch(error => console.error(error));
+        </script>
+        <!--_____________________________________________________-->
         <div id="redes-sociales">
             <!-- Botones de redes sociales -->
             <a class="boton-red-social" href="https://www.facebook.com/kdi.publicidad/?locale=es_LA">
