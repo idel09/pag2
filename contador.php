@@ -1,9 +1,9 @@
 <?php
 // Conecta a la base de datos (actualiza los datos de conexión)
-$host = "tu_servidor_mysql";
-$usuario = "tu_usuario_mysql";
-$contrasena = "tu_contrasena_mysql";
-$basededatos = "tu_base_de_datos";
+$host = "localhost";
+$usuario = "root";
+$contrasena = "Iith0kjkxwx*";
+$basededatos = "usuarioskdi";
 $conexion = new mysqli($host, $usuario, $contrasena, $basededatos);
 
 // Verifica la conexión
