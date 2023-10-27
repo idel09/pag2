@@ -2,7 +2,7 @@
 // Conecta a la base de datos (actualiza los datos de conexión)
 $host = "localhost";
 $usuario = "root";
-$contrasena = "";
+$contrasena = "Iith0kjkxwx*";
 $basededatos = "usuarioskdi";
 $conexion = new mysqli($host, $usuario, $contrasena, $basededatos);
 
