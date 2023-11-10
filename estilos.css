@@ -34,12 +34,12 @@
 
 /* Define la animación para cambiar el color del texto */
 @keyframes changeColor {
-  0% { color: rgb(241, 239, 239); }
-  25% { color: rgb(255, 255, 255); }
-  50% { color: rgb(255, 0, 98); }
-  75% { color: rgb(255, 0, 85); }
-  100% { color: rgb(255, 255, 255); }
-}
+    0% { color: rgb(241, 239, 239); }
+    25% { color: rgb(255, 255, 255); }
+    50% { color: rgb(255, 0, 98); }
+    75% { color: rgb(255, 0, 85); }
+    100% { color: rgb(255, 255, 255); }
+  }
   
   /* Aplica estilos para el texto que cambia de color */
   #nombre-negocio {
@@ -70,24 +70,6 @@
     margin-bottom: 10px; /* Mueve la imagen hacia abajo */
     margin-right: -50px; /* Mueve la imagen hacia la derecha */
 }
-#productos{
-    font-family: serif; /* Cambia la tipografía del texto */
-    font-weight: bold; /* Pone el texto en negrita */
-    font-size: 33px; /*cambiar el tamaño de letra de texto*/
-    color: rgb(255, 255, 255); /*cambiar el color de letra de texto*/
-    background-color: rgb(0, 0, 0); /* Color del fondo (rectángulo blanco) */
-    border-radius: 5px; /* Agrega esquinas redondeadas */
-    padding: 8px 15px; /* Agrega padding alrededor del texto */
-    margin: 15px 0px;
-}
-/*anuncio publicitario*/
-.ad-container {
-  width: 300px; /* Ancho del contenedor del anuncio */
-  height: 250px; /* Alto del contenedor del anuncio */
-  border: 1px solid #ccc; /* Borde para el contenedor del anuncio */
-  overflow: hidden; /* Para evitar que la imagen se desborde del contenedor */
-}
-.ad-container img {
-  width: 100%; /* Para asegurar que la imagen se ajuste al contenedor */
-  height: auto; /* Para mantener la proporción de aspecto de la imagen */
+.productos{
+    font-family: Arial, sans-serif; /* Cambia la tipografía del texto */
 }
