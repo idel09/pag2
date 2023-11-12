@@ -13,44 +13,6 @@ body {
   min-height: 100vh; /* Establece un alto mínimo para .leaf */
   margin: 0; /* Elimina el margen predeterminado */
 }
-/* En tu archivo styles.css o cualquier nombre que le hayas dado */
-
-#logo {
-  width: 100px; /* Ajusta el ancho según tus necesidades */
-  height: auto; /* Mantén la proporción original */
-  animation: rotateXY 6s infinite linear; /* Configura la animación */
-}
-
-@keyframes rotateXY {
-  from {
-      transform: rotateX(0deg) rotateY(360deg); /* Inicialmente, la imagen está en 0 grados de rotación en ambos ejes */
-  }
-  to {
-      transform: rotateX(0deg) rotateY(0deg); /* La imagen gira 360 grados en ambos ejes */
-  }
-}
-
-/* Define la animación para el fondo */
-@keyframes move {
-  0% { background-position: 0% 0%; }
-  100% { background-position: 100% 100%; }
-}
-
-/* Aplica estilos para el fondo animado */
-.background {
-  /* Otros estilos para el fondo */
-  position: fixed; /* Para que el fondo esté fijo en la ventana */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* Coloca el fondo en el fondo de la pila de capas */
-  background: linear-gradient(to right bottom, rgb(255, 0, 85), rgb(250, 250, 250), rgb(255, 0, 76), rgb(255, 255, 255), rgb(255, 0, 119), rgb(255, 255, 255));
-  background-size: 300% 300%; /* Tamaño del gradiente */
-  animation: move 15s linear infinite; /* Asocia la animación con el fondo */
-}
-/* Estilos para el logo */
-
 #logo {
   max-width: 800px;
   margin: 2px auto;
