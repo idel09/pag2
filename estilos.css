@@ -1,75 +1,106 @@
-/* styles.css */
-/* Estilos para centrar .leaf */
+/* Estilos generales */
+
+body {
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+}
+
+/* Estilos para .leaf */
+
 .leaf {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh; /* Establece un alto mínimo para .leaf */
+  margin: 0; /* Elimina el margen predeterminado */
 }
 /* Define la animación para el fondo */
 @keyframes move {
-    0% { background-position: 0% 0%; }
-    100% { background-position: 100% 100%; }
-  }
-  
-  /* Aplica estilos para el fondo animado */
-  .background {
-    /* Otros estilos para el fondo */
-    position: fixed; /* Para que el fondo esté fijo en la ventana */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1; /* Coloca el fondo en el fondo de la pila de capas */
-    background: linear-gradient(to right bottom, rgb(255, 0, 85), rgb(250, 250, 250), rgb(255, 0, 76), rgb(255, 255, 255), rgb(255, 0, 119), rgb(255, 255, 255));
-    background-size: 300% 300%; /* Tamaño del gradiente */
-    animation: move 15s linear infinite; /* Asocia la animación con el fondo */
-  }
-#logo {
-    max-width: 800px;
-    margin: 2px auto;
-    width: 600px; height: 600px;
-    text-align: center;
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
 }
 
+/* Aplica estilos para el fondo animado */
+.background {
+  /* Otros estilos para el fondo */
+  position: fixed; /* Para que el fondo esté fijo en la ventana */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Coloca el fondo en el fondo de la pila de capas */
+  background: linear-gradient(to right bottom, rgb(255, 0, 85), rgb(250, 250, 250), rgb(255, 0, 76), rgb(255, 255, 255), rgb(255, 0, 119), rgb(255, 255, 255));
+  background-size: 300% 300%; /* Tamaño del gradiente */
+  animation: move 15s linear infinite; /* Asocia la animación con el fondo */
+}
+/* Estilos para el logo */
+
+#logo {
+  max-width: 800px;
+  margin: 2px auto;
+  width: 600px; height: 600px;
+  text-align: center;
+}
 /* Define la animación para cambiar el color del texto */
 @keyframes changeColor {
-    0% { color: rgb(241, 239, 239); }
-    25% { color: rgb(255, 255, 255); }
-    50% { color: rgb(255, 0, 98); }
-    75% { color: rgb(255, 0, 85); }
-    100% { color: rgb(255, 255, 255); }
-  }
+  0% { color: rgb(241, 239, 239); }
+  25% { color: rgb(255, 255, 255); }
+  50% { color: rgb(255, 0, 98); }
+  75% { color: rgb(255, 0, 85); }
+  100% { color: rgb(255, 255, 255); }
+}
   
-  /* Aplica estilos para el texto que cambia de color */
-  #nombre-negocio {
-    animation: changeColor 3s infinite; /* Aplica la animación al texto */
-    font-weight: bold; /* Pone el texto en negrita */
-    font-size: 3em; /* Ajusta el tamaño del texto */
-    font-family: Arial, sans-serif; /* Cambia la tipografía del texto */
-    font-weight: 900;
-    padding: 10px 20px; /* Agrega padding alrededor del texto */
-    background-color: rgb(26, 2, 82); /* Color del fondo (rectángulo blanco) */
-    border-radius: 10px; /* Agrega esquinas redondeadas */
-  }
-  
+/* Estilos para el nombre del negocio */
+
+#nombre-negocio {
+  animation: changeColor 3s infinite;
+  font-weight: bold;
+  font-size: 3em;
+  font-family: Arial, sans-serif;
+  font-weight: 900;
+  padding: 10px 20px;
+  background-color: rgb(26, 2, 82);
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+}
+
+/* Estilos para las redes sociales */
 
 #redes-sociales {
-    margin: 20px 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .boton-red-social {
-    display: inline-block;
-    margin: 10px;
-    margin-right: 100px; /* Mueve la imagen hacia la derecha */
+  margin: 10px;
 }
 
 .boton-red-social img {
-    max-width: 150px; /* Ajusta el tamaño de la imagen */
-    display: block; /* Para asegurarse de que la imagen no afecte al texto */
-    margin-bottom: 10px; /* Mueve la imagen hacia abajo */
-    margin-right: -50px; /* Mueve la imagen hacia la derecha */
+  max-width: 150px;
+  display: block;
+  margin-bottom: 10px;
 }
-.productos{
-    font-family: Arial, sans-serif; /* Cambia la tipografía del texto */
+
+/* Estilos para productos */
+
+#productos {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 33px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin: 15px 0px;
+}
+/*anuncio publicitario*/
+.ad-container {
+  width: 300px; /* Ancho del contenedor del anuncio */
+  height: 250px; /* Alto del contenedor del anuncio */
+  border: 1px solid #ccc; /* Borde para el contenedor del anuncio */
+  overflow: hidden; /* Para evitar que la imagen se desborde del contenedor */
+}
+.ad-container img {
+  width: 100%; /* Para asegurar que la imagen se ajuste al contenedor */
+  height: auto; /* Para mantener la proporción de aspecto de la imagen */
 }
