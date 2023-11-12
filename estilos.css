@@ -13,6 +13,23 @@ body {
   min-height: 100vh; /* Establece un alto mínimo para .leaf */
   margin: 0; /* Elimina el margen predeterminado */
 }
+/* En tu archivo styles.css o cualquier nombre que le hayas dado */
+
+#logo {
+  width: 100px; /* Ajusta el ancho según tus necesidades */
+  height: auto; /* Mantén la proporción original */
+  animation: rotateXY 6s infinite linear; /* Configura la animación */
+}
+
+@keyframes rotateXY {
+  from {
+      transform: rotateX(0deg) rotateY(360deg); /* Inicialmente, la imagen está en 0 grados de rotación en ambos ejes */
+  }
+  to {
+      transform: rotateX(0deg) rotateY(0deg); /* La imagen gira 360 grados en ambos ejes */
+  }
+}
+
 /* Define la animación para el fondo */
 @keyframes move {
   0% { background-position: 0% 0%; }
