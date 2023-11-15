@@ -9,7 +9,7 @@ body {
   background-position: center; /* Centra la imagen en la pantalla */
   /* Otras propiedades opcionales para el fondo */
   /* background-repeat: no-repeat; */ /* Para evitar que la imagen se repita */
-  background-attachment: fixed;  /* Para que la imagen de fondo se mantenga fija mientras se desplaza la página */
+  /* background-attachment: fixed; */ /* Para que la imagen de fondo se mantenga fija mientras se desplaza la página */
   /* color: white; */ /* Cambia el color del texto para que sea legible */
 }
 
