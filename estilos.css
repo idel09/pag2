@@ -1,9 +1,5 @@
 /* Estilos generales */
 
-body {
-  margin: 0; /* Elimina el margen predeterminado del cuerpo */
-}
-
 /* Estilos para .leaf */
 
 .leaf {
@@ -22,7 +18,7 @@ body {
 /* Aplica estilos para el fondo animado */
 .background {
   /* Otros estilos para el fondo */
-  /* position: fixed; /* Para que el fondo esté fijo en la ventana */
+  position: fixed; /* Para que el fondo esté fijo en la ventana */
   top: 0;
   left: 0;
   width: 100%;
