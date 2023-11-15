@@ -1,5 +1,9 @@
 /* Estilos generales */
 
+body {
+  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+}
+
 /* Estilos para .leaf */
 
 .leaf {
