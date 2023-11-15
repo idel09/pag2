@@ -1,7 +1,7 @@
 /* Estilos generales */
 
 body {
-  margin: 0; /* Elimina el margen predeterminado del cuerpo */
+  margin: 10%; /* Elimina el margen predeterminado del cuerpo */
 }
 body {
   background-image: url('fon1.jpg'); /* Ruta de tu imagen */
