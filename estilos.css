@@ -1,5 +1,6 @@
+
 body {
-  background-color: #111111;
+  background-color: #000000;
   margin: 0;
   overflow-x: hidden;
   position: relative; /* Agrega posicionamiento relativo para los elementos hijos */
@@ -113,3 +114,37 @@ body {
   width: 100%; /* Para asegurar que la imagen se ajuste al contenedor */
   height: auto; /* Para mantener la proporción de aspecto de la imagen */
 }
+/*-------------*/
+.contenedor {
+  position: relative; /* El contenedor es relativo para que los elementos absolutos se posicionen con respecto a él */
+  display: inline-block; /* Para que el contenedor se ajuste al tamaño de su contenido */
+}
+
+.recuadro {
+  width: 1100px; /* Anchura inicial */
+  height: 1575px; /* Altura inicial */
+  background-color: rgb(255, 0, 0); /* Color inicial (rojo) */
+  position: absolute; /* Posicionamiento absoluto */
+  bottom: -10px; /* Posición debajo de la imagen */
+  left: 50%; /* Alineación horizontal centrada */
+  transform: translateX(-50%); /* Centra el recuadro */
+  animation: cambioColor 5s infinite; /* Animación de cambio de color */
+  border-radius: .9%; /* Redondea todas las esquinas */
+}
+
+@keyframes cambioColor {
+  0% { background-color: rgb(255, 0, 149); } /* Color inicial (rojo) */
+  25% { background-color: rgb(255, 255, 255); } /* Verde */
+  50% { background-color: rgb(255, 0, 179); } /* Azul */
+  75% { background-color: rgb(255, 255, 250); } /* Amarillo */
+  100% { background-color: rgb(255, 0, 157); } /* Volver a rojo */
+}
+.post1{
+  position: relative;
+  z-index: 1; /* Coloca este elemento al frente */
+}
+
+
+
+
+
