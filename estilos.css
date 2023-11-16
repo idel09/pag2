@@ -47,8 +47,9 @@ body {
 #logo {
   max-width: 800px;
   margin: 2px auto;
-  width: 300px; height: 300px;
+  width: 600px; height: 600px;
   text-align: center;
+  justify-content: center;
 }
 /* Define la animación para cambiar el color del texto */
 @keyframes changeColor {
@@ -115,3 +116,31 @@ body {
   height: auto; /* Para mantener la proporción de aspecto de la imagen */
 }
 /*-------------*/
+.contenedor {
+  position: center; /* El contenedor es relativo para que los elementos absolutos se posicionen con respecto a él */
+  display: inline-block; /* Para que el contenedor se ajuste al tamaño de su contenido */
+}
+
+.recuadro {
+  width: 620px; /* Anchura inicial */
+  height: 920px; /* Altura inicial */
+  background-color: rgb(255, 0, 0); /* Color inicial (rojo) */
+  position: center; /* Posicionamiento absoluto */
+  bottom: -10px; /* Posición debajo de la imagen */
+  left: 50%; /* Alineación horizontal centrada */
+  transform: translateX(-50%); /* Centra el recuadro */
+  animation: cambioColor 5s infinite; /* Animación de cambio de color */
+  border-radius: .9%; /* Redondea todas las esquinas */
+}
+
+@keyframes cambioColor {
+  0% { background-color: rgb(255, 0, 149); } /* Color inicial (rojo) */
+  25% { background-color: rgb(255, 255, 255); } /* Verde */
+  50% { background-color: rgb(255, 0, 179); } /* Azul */
+  75% { background-color: rgb(255, 255, 250); } /* Amarillo */
+  100% { background-color: rgb(255, 0, 157); } /* Volver a rojo */
+}
+.post1{
+  position: relative;
+  z-index: 1; /* Coloca este elemento al frente */
+}
