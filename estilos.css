@@ -20,7 +20,7 @@ body {
 #logo {
   max-width: 800px;
   margin: 2px auto;
-  width: 600px; height: 600px;
+  width: 700px; height: 700px;
   text-align: center;
 }
 /* Define la animación para cambiar el color del texto */
@@ -92,8 +92,8 @@ body {
   display: inline-block; /* Para que el contenedor se ajuste al tamaño de su contenido */
 }
 .recuadro {
-  width: 410px; /* Anchura inicial */
-  height: 560px; /* Altura inicial */
+  width: 510px; /* Anchura inicial */
+  height: 660px; /* Altura inicial */
   background-color: rgb(255, 0, 0); /* Color inicial (rojo) */
   position: absolute; /* Posicionamiento absoluto */
   bottom: -2px; /* Posición debajo de la imagen */
