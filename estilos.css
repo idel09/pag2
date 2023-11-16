@@ -92,11 +92,11 @@ body {
   display: inline-block; /* Para que el contenedor se ajuste al tamaño de su contenido */
 }
 .recuadro {
-  width: 1100px; /* Anchura inicial */
-  height: 1575px; /* Altura inicial */
+  width: 410px; /* Anchura inicial */
+  height: 560px; /* Altura inicial */
   background-color: rgb(255, 0, 0); /* Color inicial (rojo) */
   position: absolute; /* Posicionamiento absoluto */
-  bottom: -10px; /* Posición debajo de la imagen */
+  bottom: -2px; /* Posición debajo de la imagen */
   left: 50%; /* Alineación horizontal centrada */
   transform: translateX(-50%); /* Centra el recuadro */
   animation: cambioColor 5s infinite; /* Animación de cambio de color */
