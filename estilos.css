@@ -1,9 +1,9 @@
-
 body {
   background-color: #000000;
   margin: 0;
   overflow-x: hidden;
   position: relative; /* Agrega posicionamiento relativo para los elementos hijos */
+  margin: 10%; /* Elimina el margen predeterminado del cuerpo */
 }
 
 .bg {
