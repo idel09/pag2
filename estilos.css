@@ -14,24 +14,7 @@ body {
   margin: 0; /* Elimina el margen predeterminado */
 }
 /* Define la animación para el fondo */
-@keyframes move {
-  0% { background-position: 0% 0%; }
-  100% { background-position: 100% 100%; }
-}
 
-/* Aplica estilos para el fondo animado */
-.background {
-  /* Otros estilos para el fondo */
-  position: fixed; /* Para que el fondo esté fijo en la ventana */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1; /* Coloca el fondo en el fondo de la pila de capas */
-  background: linear-gradient(to right bottom, rgb(255, 0, 85), rgb(250, 250, 250), rgb(255, 0, 76), rgb(255, 255, 255), rgb(255, 0, 119), rgb(255, 255, 255));
-  background-size: 300% 300%; /* Tamaño del gradiente */
-  animation: move 15s linear infinite; /* Asocia la animación con el fondo */
-}
 /* Estilos para el logo */
 
 #logo {
