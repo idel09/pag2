@@ -14,7 +14,9 @@ body {
   margin: 0; /* Elimina el margen predeterminado */
 }
 /* Define la animación para el fondo -------------------------------------NIEVE*/
-body{background:black;overflow:hidden;}
+body{
+  background:black;overflow:visible;
+}
 
 @-moz-keyframes nieve{	
 	from{top:-40px;}
