@@ -17,6 +17,7 @@ body {
 body{
   background:black;overflow:visible;
   background-image: url("fon1.jpg");
+  background-attachment: fixed;
 }
 
 @-moz-keyframes nieve{	
