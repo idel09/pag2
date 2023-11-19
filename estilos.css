@@ -16,6 +16,7 @@ body {
 /* Define la animación para el fondo -------------------------------------NIEVE*/
 body{
   background:black;overflow:visible;
+  background-image: url("fon1.jpg");
 }
 
 @-moz-keyframes nieve{	
