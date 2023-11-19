@@ -293,11 +293,11 @@ body {
   border-radius: .9%; /* Redondea todas las esquinas */
 }
 @keyframes cambioColor {
-  0% { background-color: rgb(255, 0, 149); } /* Color inicial (rojo) */
+  0% { background-color: rgb(255, 238, 0); } /* Color inicial (rojo) */
   25% { background-color: rgb(255, 255, 255); } /* Verde */
-  50% { background-color: rgb(255, 0, 179); } /* Azul */
-  75% { background-color: rgb(255, 255, 250); } /* Amarillo */
-  100% { background-color: rgb(255, 0, 157); } /* Volver a rojo */
+  50% { background-color: rgb(255, 145, 0); } /* Azul */
+  75% { background-color: rgb(221, 145, 5); } /* Amarillo */
+  100% { background-color: rgb(219, 215, 3); } /* Volver a rojo */
 }
 .post1{
   position: relative;
