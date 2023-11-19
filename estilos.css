@@ -266,6 +266,18 @@ body {
     transform: scale(2.5);
   }
 }
+/* Estilos para productos */
+
+#productos {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 33px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin: 15px 0px;
+}
 /*anuncio publicitario*/
 .ad-container {
   width: 300px; /* Ancho del contenedor del anuncio */
@@ -293,11 +305,11 @@ body {
   border-radius: .9%; /* Redondea todas las esquinas */
 }
 @keyframes cambioColor {
-  0% { background-color: rgb(255, 238, 0); } /* Color inicial (rojo) */
-  25% { background-color: rgb(255, 255, 255); } /* Verde */
-  50% { background-color: rgb(255, 145, 0); } /* Azul */
-  75% { background-color: rgb(221, 145, 5); } /* Amarillo */
-  100% { background-color: rgb(219, 215, 3); } /* Volver a rojo */
+  0% { background-color: rgb(255, 0, 179); } /* Color inicial (rojo) */
+  25% { background-color: rgb(255, 0, 170); } /* Verde */
+  50% { background-color: rgb(255, 255, 255); } /* Azul */
+  75% { background-color: rgb(255, 255, 255); } /* Amarillo */
+  100% { background-color: rgb(240, 11, 202); } /* Volver a rojo */
 }
 .post1{
   position: relative;
