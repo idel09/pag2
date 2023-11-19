@@ -87,6 +87,7 @@ body {
   margin-bottom: 10px;
   position: relative;
   z-index: 2;
+  animation: latido 1.9s infinite;
 }
 
 @keyframes onda1 {
@@ -100,6 +101,23 @@ body {
   100%{
     opacity: 0;
     transform: scale(2.5);
+  }
+}
+@keyframes latido {
+  0%
+  {
+    transform: scale( 1 )
+      rotate(1deg);    
+  }
+  20%
+  {
+    transform: scale( .8 )
+      rotate(1deg);  
+  }
+   40%
+  {
+    transform: scale( 1.2 )
+      rotate(1deg);
   }
 }
 /* -------------------Estilos para las redes sociales --------2*/
@@ -141,6 +159,7 @@ body {
   margin-bottom: 10px;
   position: relative;
   z-index: 2;
+  animation: latido 1.9s infinite;
 }
 
 @keyframes onda1 {
@@ -154,6 +173,23 @@ body {
   100%{
     opacity: 0;
     transform: scale(2.5);
+  }
+}
+@keyframes latido {
+  0%
+  {
+    transform: scale( 1 )
+      rotate(1deg);    
+  }
+  20%
+  {
+    transform: scale( .8 )
+      rotate(1deg);  
+  }
+   40%
+  {
+    transform: scale( 1.2 )
+      rotate(1deg);
   }
 }
 /* Estilos para las redes sociales --------3*/
@@ -196,6 +232,7 @@ body {
   margin-bottom: 10px;
   position: relative;
   z-index: 2;
+  animation: latido 1.9s infinite;
 }
 
 @keyframes onda1 {
@@ -209,6 +246,23 @@ body {
   100%{
     opacity: 0;
     transform: scale(2.5);
+  }
+}
+@keyframes latido {
+  0%
+  {
+    transform: scale( 1 )
+      rotate(1deg);    
+  }
+  20%
+  {
+    transform: scale( .8 )
+      rotate(1deg);  
+  }
+   40%
+  {
+    transform: scale( 1.2 )
+      rotate(1deg);
   }
 }
 /* Estilos para las redes sociales --------4*/
@@ -251,6 +305,7 @@ body {
   margin-bottom: 10px;
   position: relative;
   z-index: 2;
+  animation: latido 1.9s infinite;
 }
 
 @keyframes onda1 {
@@ -264,6 +319,23 @@ body {
   100%{
     opacity: 0;
     transform: scale(2.5);
+  }
+}
+@keyframes latido {
+  0%
+  {
+    transform: scale( 1 )
+      rotate(1deg);    
+  }
+  20%
+  {
+    transform: scale( .8 )
+      rotate(1deg);  
+  }
+   40%
+  {
+    transform: scale( 1.2 )
+      rotate(1deg);
   }
 }
 /* Estilos para productos */
