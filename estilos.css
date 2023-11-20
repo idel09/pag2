@@ -15,7 +15,6 @@ body {
 }
 /* Define la animación para el fondo -------------------------------------NIEVE*/
 body{
-  background:black;overflow:visible;
   background-image: url("fon2.jpg");
   background-attachment: static;
   border: 3px solid #ffffff
