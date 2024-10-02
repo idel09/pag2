@@ -59,8 +59,8 @@ body {
   margin-left: -25%;
 }
 .lines .line:nth-child(1)::after {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 .lines .line:nth-child(3) {
   margin-left: 25%;
