@@ -1,93 +1,89 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
-.hero {
-  background-color: #0040C1;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  color: #000000;
+  line-height: 1.6;
   position: relative;
-  height: 100vh;
+  font-family: sans-serif;
   overflow: hidden;
-  font-family: 'Montserrat', sans-serif;
 }
 
-.hero__title {
-  color: #fff;
+.lines {
   position: absolute;
-  top: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  margin: auto;
+  width: 90vw;
+}
+.lines .line {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-size: 50px;
-  z-index: 1;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
 }
-
-.cube {
+.lines .line::after {
+  content: "";
+  display: block;
   position: absolute;
-  top: 80vh;
-  left: 45vw;
-  width: 10px;
-  height: 10px;
-  border: solid 1px #f10101;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
-  -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
-          transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  -webkit-animation: cube 12s ease-in forwards infinite;
-          animation: cube 12s ease-in forwards infinite;
+  height: 15vh;
+  width: 100%;
+  top: -50%;
+  left: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 223, 6, 0)), color-stop(75%, #34f503), to(#c71212));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #0026ff 75%, #48ff00 100%);
+  -webkit-animation: run 7s 0s infinite;
+          animation: run 7s 0s infinite;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+          animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
 }
-.cube:nth-child(2n) {
-  border-color: #00f414;
+.lines .line:nth-child(1) {
+  margin-left: -25%;
 }
-.cube:nth-child(2) {
+.lines .line:nth-child(1)::after {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
-  left: 25vw;
-  top: 40vh;
 }
-.cube:nth-child(3) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-  left: 75vw;
-  top: 50vh;
+.lines .line:nth-child(3) {
+  margin-left: 25%;
 }
-.cube:nth-child(4) {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-  left: 90vw;
-  top: 10vh;
-}
-.cube:nth-child(5) {
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-  left: 10vw;
-  top: 85vh;
-}
-.cube:nth-child(6) {
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
-  left: 50vw;
-  top: 10vh;
+.lines .line:nth-child(3)::after {
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
 }
 
-@-webkit-keyframes cube {
-  from {
-    -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
-            transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    opacity: 1;
+@-webkit-keyframes run {
+  0% {
+    top: -50%;
   }
-  to {
-    -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
-            transform: scale(20) rotate(960deg) translate(-50%, -50%);
-    opacity: 0;
+  100% {
+    top: 110%;
   }
 }
 
-@keyframes cube {
-  from {
-    -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
-            transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    opacity: 1;
+@keyframes run {
+  0% {
+    top: -50%;
   }
-  to {
-    -webkit-transform: scale(20) rotate(960deg) translate(-50%, -50%);
-            transform: scale(20) rotate(960deg) translate(-50%, -50%);
-    opacity: 0;
+  100% {
+    top: 110%;
   }
 }
