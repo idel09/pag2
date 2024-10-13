@@ -25,3 +25,20 @@ aside{
     background:grey;
     float: left;
 }
+
+@media screen and (max-width:800px){
+    .main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px){
+    .contenedor{
+        width: 100%;
+    }
+    aside{
+        display: none;
+    }
+}
