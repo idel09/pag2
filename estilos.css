@@ -1,0 +1,27 @@
+.contenedor{
+    width: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+    background: rgb(0, 0, 0);
+    overflow: hidden;
+}
+.main{
+    width: 70%;
+    background: red;
+    float:left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.main img{ 
+    width: 40%;
+    height: auto;
+
+}
+aside{
+    width: 30%;
+    background: blue;
+    padding: 20px;
+    box-sizing: border-box;
+    background:grey;
+    float: left;
+}
