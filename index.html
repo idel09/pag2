@@ -8,6 +8,7 @@
   <script src='main.js'></script>
 </head>
 <body>
+  <body onclick="PlayAudio()"></body>
   <div class="contenedor">
     <head>
     <h1><center><font color="black pink"><p1>prueba pagina web laser</p></font></center></h1>
@@ -34,5 +35,13 @@ Compuerta NAND: Produce una salida falsa solamente si todas sus entradas son
       </p>
     </aside>
     </div>
+    <audio id="son1" loop>
+      <source src="son2.mp3" type="audio/mpeg">
+  </audio>
+<script>
+  function PlayAudio(){
+      document.getElementById("son1").play();
+  }
+</script>
 </body>
 </html></html>
