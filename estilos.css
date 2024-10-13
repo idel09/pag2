@@ -7,28 +7,31 @@
 }
 .main{
     width: 70%;
-    background: red;
+    background: rgb(0, 107, 247);
     float:left;
     padding: 20px;
     box-sizing: border-box;
+    text-align: justify;
 }
 .main img{ 
     width: 100%;
     height: auto;
-
+    background: rgb(255, 255, 255);
 }
 aside{
     width: 30%;
     background: blue;
     padding: 20px;
     box-sizing: border-box;
-    background:grey;
+    background:rgb(255, 0, 242);
     float: left;
+    text-align: justify;
+    
 }
 
 @media screen and (max-width:800px){
     .main{
-        width: 100%;
+        width: 100%;   
     }
     aside{
         width: 100%;
