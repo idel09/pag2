@@ -1,5 +1,10 @@
-body{
-    background-color: rgb(0, 0, 0);
+.fondo{
+  min-height: 100vh;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/221808/sky.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow-x:hidden;
 }
 .contenedor{
     width: 100%;
@@ -7,7 +12,7 @@ body{
     margin:0 auto;
     overflow: hidden;
 }
-.texto{
+.titulo{
     width: 100%;
     max-width: 1000px;
     margin:0 auto;
@@ -29,7 +34,7 @@ body{
   font-family:cursive;
 }
 .tex2{
-  color: rgb(255, 174, 0);
+  color: rgb(0, 0, 0);
   font-family: cursive;
 }
 .main{
@@ -50,7 +55,7 @@ aside{
     background: rgb(255, 0, 0);
     padding: 20px;
     box-sizing: border-box;
-    background:rgb(0, 0, 0);
+    background:rgb(248, 248, 248);
     float: left;
     text-align: justify;
     
