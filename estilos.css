@@ -24,6 +24,14 @@ body{
     background-position-y: center;
     background-clip: text;
 }
+.tex1{
+  color: rgb(255, 0, 200);
+  font-family:cursive;
+}
+.tex2{
+  color: rgb(255, 174, 0);
+  font-family: cursive;
+}
 .main{
     width: 70%;
     background: rgb(0, 0, 0);
@@ -42,7 +50,7 @@ aside{
     background: rgb(255, 0, 0);
     padding: 20px;
     box-sizing: border-box;
-    background:rgb(255, 255, 255);
+    background:rgb(0, 0, 0);
     float: left;
     text-align: justify;
     
