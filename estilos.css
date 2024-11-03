@@ -1,6 +1,6 @@
 .fondo{
   min-height: 100vh;
-  background-image: url(1anim.jpg);
+  background-image: url(2nav.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -11,6 +11,7 @@
     max-width: 1000px;
     margin:0 auto;
     overflow: hidden;
+    
 }
 .titulo{
     width: 100%;
@@ -34,7 +35,7 @@
   color:transparent;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 40px;
-  background-image: url(4.gif);
+  background-image: url(3.gif);
   background-size:cover;
   background-position-y: center;
   background-clip: text;
@@ -55,11 +56,13 @@
     box-sizing: border-box;
     text-align: justify;
 }
+ imagen de contenedor
 .main img{ 
     width: 100%;
     height: auto;
     background: rgb(255, 255, 255);
 }
+*/
 aside{
     width: 30%;
     background: rgb(255, 0, 0);
@@ -79,7 +82,7 @@ aside{
         width: 100%;
     }
 }
-
+/*-------------------------------*/
 
 .circle-container {
     position: absolute;
@@ -6980,3 +6983,20 @@ aside{
       opacity: 1;
     }
   }
+
+  /*anuncio publicitario .js*/
+.ad-container {
+  width: 300px; /* Ancho del contenedor del anuncio */
+  height: 250px; /* Alto del contenedor del anuncio */
+  border: 1px solid #ccc; /* Borde para el contenedor del anuncio */
+  overflow: hidden; /* Para evitar que la imagen se desborde del contenedor */
+}
+.ad-container img {
+  width: 100%; /* Para asegurar que la imagen se ajuste al contenedor */
+  height: auto; /* Para mantener la proporción de aspecto de la imagen */
+}
+
+.post1{
+  position: relative;
+  z-index: 1; /* Coloca este elemento al frente */
+}
