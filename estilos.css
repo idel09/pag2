@@ -11,8 +11,28 @@
     max-width: 1000px;
     margin:0 auto;
     overflow: hidden;
-    
+    background-color: rgb(24, 0, 82);
 }
+/*------------tabla-----------------------*/
+.contenedortabla{
+  border:solid 5px rgb(0, 124, 31);
+  background-color: yellow;
+  justify-content:center;
+}
+.table{ 
+  color: #dd2323;
+  
+}
+tr,td{
+  color: blue;
+  border: solid black;
+  padding: 20px;
+
+}
+thead{
+  background-color: aqua;
+}
+/*------------final----tabla-----------------------*/
 .titulo{
     width: 100%;
     max-width: 1000px;
@@ -56,7 +76,7 @@
     box-sizing: border-box;
     text-align: justify;
 }
- imagen de contenedor
+/*imagen de contenedor
 .main img{ 
     width: 100%;
     height: auto;
