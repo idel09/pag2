@@ -18,11 +18,13 @@
   border:solid 5px rgb(255, 1, 1);
   background-color: yellow;
   margin: auto; /*centrar tabla*/
+  max-width: 1000px;
   width: 100%;
 }
 tr,td{
   color: rgb(255, 255, 255);
   /*border: solid rgb(37, 0, 136);quitar margen a celdas*/
+  text-align: center;/*------------centrar la imagen dentro de la tabla*/
 }
 thead{
   background: red;
