@@ -11,26 +11,21 @@
     max-width: 1000px;
     margin:0 auto;
     overflow: hidden;
-    background-color: rgb(24, 0, 82);
+ 
 }
 /*------------tabla-----------------------*/
 .contenedortabla{
   border:solid 5px rgb(0, 124, 31);
   background-color: yellow;
-  justify-content:center;
-}
-.table{ 
-  color: #dd2323;
-  
+  margin: auto; /*centrar tabla*/
 }
 tr,td{
-  color: blue;
-  border: solid black;
-  padding: 20px;
+  color: rgb(255, 255, 255);
+  border: solid rgb(37, 0, 136);/*quitar margen a celdas*/
 
 }
 thead{
-  background-color: aqua;
+  background: red;
 }
 /*------------final----tabla-----------------------*/
 .titulo{
@@ -76,7 +71,7 @@ thead{
     box-sizing: border-box;
     text-align: justify;
 }
-/*imagen de contenedor
+imagen de contenedor
 .main img{ 
     width: 100%;
     height: auto;
