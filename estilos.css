@@ -18,11 +18,11 @@
   border:solid 5px rgb(255, 1, 1);
   background-color: yellow;
   margin: auto; /*centrar tabla*/
+  width: 100%;
 }
 tr,td{
   color: rgb(255, 255, 255);
   /*border: solid rgb(37, 0, 136);quitar margen a celdas*/
-
 }
 thead{
   background: red;
