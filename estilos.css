@@ -7003,20 +7003,3 @@ aside{
     }
   }
 
-  /*anuncio publicitario .js*/
-.ad-container {
-  width: 150px; /* Ancho del contenedor del anuncio */
-  height: 200px; /* Alto del contenedor del anuncio */
-  border: 1px solid #ccc; /* Borde para el contenedor del anuncio */
-  overflow: hidden; /* Para evitar que la imagen se desborde del contenedor */
-  margin: 0% auto;
-}
-.ad-container img {
-  width: 100%; /* Para asegurar que la imagen se ajuste al contenedor */
-  height: auto; /* Para mantener la proporción de aspecto de la imagen */
-}
-
-.post1{
-  position: relative;
-  z-index: 1; /* Coloca este elemento al frente */
-}
