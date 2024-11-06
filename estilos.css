@@ -16,7 +16,7 @@
 /*------------tabla-----------------------*/
 .contenedortabla{
   border:solid 5px rgb(255, 1, 1);
-  background-color: yellow;
+  backdrop-filter: blur(10px); /*------poner el fondo borroso----------*/
   margin: auto; /*centrar tabla*/
   max-width: 1000px;
   width: 100%;
@@ -27,7 +27,7 @@ tr,td{
   text-align: center;/*------------centrar la imagen dentro de la tabla*/
 }
 thead{
-  background: red;
+  background: Rgba(0,0,0,0.4)
 }
 /*------------final----tabla-----------------------*/
 .titulo{
@@ -74,11 +74,12 @@ thead{
     box-sizing: border-box;
     text-align: justify;
 }
-imagen de contenedor
+/* imagen de contenedor*/
 .main img{ 
     width: 100%;
     height: auto;
     background: rgb(255, 255, 255);
+    margin: auto;
 }
 */
 aside{
@@ -7008,7 +7009,7 @@ aside{
   height: 200px; /* Alto del contenedor del anuncio */
   border: 1px solid #ccc; /* Borde para el contenedor del anuncio */
   overflow: hidden; /* Para evitar que la imagen se desborde del contenedor */
-  margin:0 auto;
+  margin: 0% auto;
 }
 .ad-container img {
   width: 100%; /* Para asegurar que la imagen se ajuste al contenedor */
