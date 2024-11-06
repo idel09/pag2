@@ -7004,10 +7004,11 @@ aside{
 
   /*anuncio publicitario .js*/
 .ad-container {
-  width: 300px; /* Ancho del contenedor del anuncio */
-  height: 250px; /* Alto del contenedor del anuncio */
+  width: 150px; /* Ancho del contenedor del anuncio */
+  height: 200px; /* Alto del contenedor del anuncio */
   border: 1px solid #ccc; /* Borde para el contenedor del anuncio */
   overflow: hidden; /* Para evitar que la imagen se desborde del contenedor */
+  margin:0 auto;
 }
 .ad-container img {
   width: 100%; /* Para asegurar que la imagen se ajuste al contenedor */
