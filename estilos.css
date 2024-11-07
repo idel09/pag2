@@ -27,7 +27,8 @@ tr,td{
   text-align: center;/*------------centrar la imagen dentro de la tabla*/
 }
 thead{
-  background: Rgba(0,0,0,0.4)
+  background:rgba(4, 0, 231, 0.247);
+  
 }
 /*------------final----tabla-----------------------*/
 .titulo{
