@@ -1,10 +1,16 @@
 .fondo{
   min-height: 100vh;
-  background-image: url(2nav.jpg);
+  background-image: url(3nav.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   overflow-x:hidden;
+}
+.unimg{
+  transform: rotate(270deg); /*rotar imagen*/
+}
+.tresimg{
+  transform: rotate(90 deg); /*rotar imagen*/
 }
 .contenedor{
     width: 100%;
@@ -14,7 +20,7 @@
 }
 /*------------tabla-----------------------*/
 .contenedortabla{
-  background-color: rgba(255, 223, 39, 0.123);
+  background-color: rgba(61, 4, 194, 0.199);
   backdrop-filter: blur(5px); /*------poner el fondo borroso----------*/
   margin: auto; /*centrar tabla*/
   max-width: 1000px;
@@ -26,7 +32,7 @@ tr,td{
   text-align: center;/*------------centrar la imagen dentro de la tabla*/
 }
 thead{
-  background: rgba(0, 255, 200, 0.185)
+  background: rgba(255, 255, 255, 0.185)
   
 }
 /*------------final----tabla-----------------------*/
