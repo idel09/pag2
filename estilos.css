@@ -1,6 +1,6 @@
 .fondo{
   min-height: 100vh;
-  background-image: url(amo1.jpg);
+  background-image: url(2nav.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -11,11 +11,10 @@
     max-width: 1000px;
     margin:0 auto;
     overflow: hidden;
- 
 }
 /*------------tabla-----------------------*/
 .contenedortabla{
-  background-color: rgba(2, 255, 23, 0.123);
+  background-color: rgba(255, 223, 39, 0.123);
   backdrop-filter: blur(5px); /*------poner el fondo borroso----------*/
   margin: auto; /*centrar tabla*/
   max-width: 1000px;
@@ -27,7 +26,7 @@ tr,td{
   text-align: center;/*------------centrar la imagen dentro de la tabla*/
 }
 thead{
-  background:rgba(4, 0, 231, 0.247);
+  background: rgba(0, 255, 200, 0.185)
   
 }
 /*------------final----tabla-----------------------*/
@@ -82,7 +81,6 @@ thead{
     background: rgb(255, 255, 255);
     margin: auto;
 }
-*/
 aside{
     width: 30%;
     padding: 20px;
@@ -90,7 +88,6 @@ aside{
     background:transparent;
     float: left;
     text-align: justify;
-    
 }
 
 @media screen and (max-width:800px){
@@ -7002,4 +6999,20 @@ aside{
       opacity: 1;
     }
   }
-
+  /*anuncio publicitario .js*/
+  .ad-container {
+    width: 300px; /* Ancho del contenedor del anuncio */
+    height: 250px; /* Alto del contenedor del anuncio */
+    border: 1px solid #ccc; /* Borde para el contenedor del anuncio */
+    overflow: hidden; /* Para evitar que la imagen se desborde del contenedor */
+    margin: 0% auto;
+  }
+  .ad-container img {
+    width: 100%; /* Para asegurar que la imagen se ajuste al contenedor */
+    height: auto; /* Para mantener la proporción de aspecto de la imagen */
+  }
+  
+  .post1{
+    position: relative;
+    z-index: 1; /* Coloca este elemento al frente */
+  }
