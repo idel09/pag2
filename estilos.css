@@ -48,10 +48,27 @@ thead{
     font-weight: bold;
     font-family:Nosifer;
     font-weight: 400;
-    background-image: url(2.gif);
+    background-image: url(1.gif);
     background-size: cover;
     background-position-y: center;
     background-clip: text;
+}
+.titulo2{
+  width: 100%;
+  max-width: 1000px;
+  margin:0 auto;
+  color: transparent;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  font-family:Nosifer;
+  font-weight: 400;
+  background-image: url(4.gif);
+  background-size: cover;
+  background-position-y: center;
+  background-clip: text;
 }
 .BIENVENIDO{
   text-align: center;
@@ -7007,8 +7024,8 @@ aside{
   }
   /*anuncio publicitario .js*/
   .ad-container {
-    width: 300px; /* Ancho del contenedor del anuncio */
-    height: 250px; /* Alto del contenedor del anuncio */
+    width: 200px; /* Ancho del contenedor del anuncio */
+    height: 150px; /* Alto del contenedor del anuncio */
     border: 1px solid #ccc; /* Borde para el contenedor del anuncio */
     overflow: hidden; /* Para evitar que la imagen se desborde del contenedor */
     margin: 0% auto;
