@@ -5,6 +5,7 @@
   background-position: center center;
   background-size: cover;
   overflow-x:hidden;
+  background-attachment: fixed;
 }
 .unimg{
   transform: rotate(270deg); /*rotar imagen*/
@@ -20,11 +21,23 @@
 }
 /*------------tabla-----------------------*/
 .contenedortabla{
-  background-color: rgba(61, 4, 194, 0.199);
-  backdrop-filter: blur(5px); /*------poner el fondo borroso----------*/
+  background-color: rgba(55, 0, 255, 0.233);
+  backdrop-filter: blur(2px); /*------poner el fondo borroso----------*/
   margin: auto; /*centrar tabla*/
   max-width: 1000px;
   width: 100%;
+}
+.lin3{
+  background-color: rgba(189, 1, 236, 0.219);
+  backdrop-filter: blur(2px); /*------poner el fondo borroso----------*/
+}
+.lin5{
+  background-color: rgba(11, 122, 26, 0.479);
+  backdrop-filter: blur(2px); /*------poner el fondo borroso----------*/
+}
+.lin7{
+  background-color: rgba(5, 1, 236, 0.144);
+  backdrop-filter: blur(2px); /*------poner el fondo borroso----------*/
 }
 tr,td{
   color: rgb(255, 255, 255);
@@ -61,11 +74,28 @@ thead{
   overflow: hidden;
   text-align: center;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 40px; /*********CAMBIA EL TAMAÑO DEL TEXTO********/
   font-weight: bold;
   font-family:Nosifer;
   font-weight: 400;
-  background-image: url(4.gif);
+  background-color: rgba(255, 238, 0, 0.281);
+  background-size: cover;
+  background-position-y: center;
+  background-clip: text;
+}
+.titulo3{
+  width: 100%;
+  max-width: 1000px;
+  margin:0 auto;
+  color: transparent;
+  overflow: hidden;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: bold;
+  font-family:Nosifer;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0.788);
   background-size: cover;
   background-position-y: center;
   background-clip: text;
@@ -7033,9 +7063,4 @@ aside{
   .ad-container img {
     width: 100%; /* Para asegurar que la imagen se ajuste al contenedor */
     height: auto; /* Para mantener la proporción de aspecto de la imagen */
-  }
-  
-  .post1{
-    position: relative;
-    z-index: 1; /* Coloca este elemento al frente */
   }
